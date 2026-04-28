@@ -70,22 +70,31 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "BEGIN HERE"
+      },
+      {
+        "tab": "APPLICATIONS",
+        "icon": "browsers"
+      },
+      {
+        "tab": "MODELS",
+        "icon": "brain-circuit"
+      },
+      {
+        "tab": "INFRASTRUCTURE",
+        "icon": "server"
+      },
+      {
+        "tab": "CHIPS",
+        "icon": "microchip-ai"
+      },
+      {
+        "tab": "ENERGY",
+        "icon": "bolt-lightning"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
