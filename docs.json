@@ -20,21 +20,26 @@
       {
         "tab": "LIBRARY",
         "icon": "books",
-        "pages": [
-          "library/browse",
-          "library/agents",
-          "library/articles-and-threads",
-          "library/audio-and-speech",
-          "library/coding",
-          "library/control-surfaces",
-          "library/design",
-          "library/finance",
-          "library/hardware-design",
-          "library/image-and-video",
-          "library/memory-and-context",
-          "library/models",
-          "library/utilities",
-          "library/skills"
+        "groups": [
+          {
+            "group": "Library",
+            "root": "library/browse",
+            "pages": [
+              "library/agents",
+              "library/articles-and-threads",
+              "library/audio-and-speech",
+              "library/coding",
+              "library/control-surfaces",
+              "library/design",
+              "library/finance",
+              "library/hardware-design",
+              "library/image-and-video",
+              "library/memory-and-context",
+              "library/models",
+              "library/utilities",
+              "library/skills"
+            ]
+          }
         ]
       },
       {
