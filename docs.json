@@ -14,6 +14,26 @@
         "tab": "BEGIN HERE",
         "pages": [
           "index"
+        ],
+        "hidden": true
+      },
+      {
+        "tab": "LIBRARY",
+        "icon": "books",
+        "pages": [
+          "library/browse",
+          "library/agents",
+          "library/coding",
+          "library/skills",
+          "library/audio-and-speech",
+          "library/image-and-video",
+          "library/models",
+          "library/memory-and-context",
+          "library/control-surfaces",
+          "library/hardware-design",
+          "library/productivity-utilities",
+          "library/finance",
+          "library/articles-and-threads"
         ]
       },
       {
@@ -117,25 +137,6 @@
           }
         ],
         "hidden": true
-      },
-      {
-        "tab": "LIBRARY",
-        "icon": "books",
-        "pages": [
-          "library/browse",
-          "library/agents",
-          "library/coding",
-          "library/skills",
-          "library/audio-and-speech",
-          "library/image-and-video",
-          "library/models",
-          "library/memory-and-context",
-          "library/control-surfaces",
-          "library/hardware-design",
-          "library/productivity-utilities",
-          "library/finance",
-          "library/articles-and-threads"
-        ]
       }
     ]
   },
