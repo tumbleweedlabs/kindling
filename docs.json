@@ -23,17 +23,18 @@
         "pages": [
           "library/browse",
           "library/agents",
-          "library/coding",
-          "library/skills",
+          "library/articles-and-threads",
           "library/audio-and-speech",
-          "library/image-and-video",
-          "library/models",
-          "library/memory-and-context",
+          "library/coding",
           "library/control-surfaces",
-          "library/hardware-design",
-          "library/productivity-utilities",
+          "library/design",
           "library/finance",
-          "library/articles-and-threads"
+          "library/hardware-design",
+          "library/image-and-video",
+          "library/memory-and-context",
+          "library/models",
+          "library/productivity-utilities",
+          "library/skills"
         ]
       },
       {
