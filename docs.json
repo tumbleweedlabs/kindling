@@ -11,11 +11,11 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "BEGIN HERE",
+        "tab": "HOME",
         "pages": [
           "index"
         ],
-        "hidden": true
+        "icon": "house"
       },
       {
         "tab": "LIBRARY",
