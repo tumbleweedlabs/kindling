@@ -1,86 +1,101 @@
 ---
-title: "Home"
-description: "Welcome to the new home for your documentation"
-icon: "house"
+title: "Kindling"
+description: "Structured AI learning from first principles to application — organized around the 5-layer AI stack."
 mode: "custom"
 ---
 
-## Setting up
+<div style={{maxWidth: "1472px", margin: "72px auto 120px", padding: "0 48px"}}>
 
-Get your documentation site up and running in minutes.
+<h1 style={{fontSize: "3rem", fontWeight: "800", letterSpacing: "-0.03em", lineHeight: "1.15", marginBottom: "0.75rem"}}>
+  Learn the full AI stack.
+</h1>
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+<p style={{fontSize: "1.25rem", color: "#a8a29e", marginBottom: "1.75rem", maxWidth: "680px"}}>
+  From energy infrastructure to the apps that run on it — structured learning for curious humans.
+</p>
 
-## Make it yours
+AI is everywhere. Understanding *how* it actually works shouldn't require a computer science degree or a tolerance for hype. Kindling organizes the entire landscape into five clear layers, so you can start anywhere and build a real mental model.
 
-Design a docs site that looks great and empowers your users.
+<Tip>
+  **New here?** Start with the Library for a curated catalog of AI tools and reading material, or pick a layer in the stack below to go deep on a specific part of the technology.
+</Tip>
 
-<Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
+---
+
+<h2 style={{fontSize: "1.875rem", fontWeight: "700", letterSpacing: "-0.02em", marginTop: "0.5rem", marginBottom: "1rem"}}>
+  The AI Technology Stack
+</h2>
+
+Modern AI isn't one thing — it's a layered system where each level depends entirely on the one below it. NVIDIA's Jensen Huang popularized this framing at CES 2026. We use it as Kindling's organizing principle because it works: once you see the stack, the whole industry starts to make sense.
+
+<div style={{width: "50%", margin: "2rem 0"}}>
+  <Frame caption="The AI Technology Stack — five interdependent layers from energy to applications. Source: NVIDIA / Jensen Huang, CES 2026.">
+    <img
+      src="/images/ai-tech-stack.png"
+      alt="The NVIDIA AI Technology Stack: 5 layers from Energy to Applications"
+    />
+  </Frame>
+</div>
+
+Here's how each layer fits together, starting from what people use and working down to what makes it all possible:
+
+<Steps>
+  <Step title="5 · Applications" icon="browsers">
+    What people actually use. Chatbots, coding assistants, autonomous agents, retrieval-augmented generation (RAG) systems, multimodal apps — all products built on the layers below. This is where AI creates tangible value, and where most of the innovation you read about is happening. Understanding what's beneath helps you build better here.
+  </Step>
+  <Step title="4 · Models" icon="brain-circuit">
+    The intelligence itself. Foundation models are trained on vast datasets and develop a compressed, statistical understanding of language, images, code, and more. That understanding lives in billions of numerical parameters called **weights**. Fine-tuning, RLHF, and prompt engineering are all techniques for shaping what a model knows and how it behaves — without retraining from scratch.
+  </Step>
+  <Step title="3 · Infrastructure" icon="server">
+    Models don't run themselves. Infrastructure is the software layer that orchestrates compute at scale — cloud providers like AWS, Azure, and GCP; model-serving frameworks; vector databases; orchestration tools; and the APIs that connect it all into reliable services. This is where AI goes from "a GPU in a rack" to "something a million people can call simultaneously."
+  </Step>
+  <Step title="2 · Chips" icon="microchip-ai">
+    The raw computation happens on specialized silicon. GPUs — originally designed for rendering game graphics — turned out to be ideal for the matrix math that underlies neural networks. The result is a global arms race in accelerator hardware: NVIDIA, AMD, Google (TPUs), and dozens of startups. The chips available at a given moment define what models are possible to train and what it costs to run them.
+  </Step>
+  <Step title="1 · Energy" icon="bolt-lightning">
+    The physical foundation. Training a frontier model can consume as much electricity as thousands of homes. Inference runs continuously at data centers around the world. Energy isn't a footnote in AI — it's a hard constraint shaping where and how fast the technology can grow. Data centers are being built next to power plants, in remote regions, and increasingly powered by dedicated nuclear reactors.
+  </Step>
+</Steps>
+
+<Note>
+  **Why start from the top?** Most people encounter AI through applications — a chatbot, a coding tool, an image generator. Starting at layer 5 and working down lets you trace what you already know back to its roots. By the time you reach energy, you'll see why it matters.
+</Note>
+
+---
+
+<h2 style={{fontSize: "1.875rem", fontWeight: "700", letterSpacing: "-0.02em", marginTop: "0.5rem", marginBottom: "1rem"}}>
+  Start exploring
+</h2>
+
+<CardGroup cols={3}>
+  <Card title="Library" icon="books" href="/library/agents">
+    A curated catalog of AI tools, repos, and reading material — organized by function, not hype.
   </Card>
-
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
+  <Card title="Applications" icon="browsers" href="/applications/overview">
+    Agents, RAG systems, coding assistants, and the products built on the stack.
   </Card>
-
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
+  <Card title="Models" icon="brain-circuit" href="/models/overview">
+    Foundation models, weights, fine-tuning, and how language models actually work.
   </Card>
-
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
+  <Card title="Infrastructure" icon="server" href="/infrastructure/overview">
+    Cloud APIs, orchestration, vector databases, and model serving at scale.
   </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
+  <Card title="Chips" icon="microchip-ai" href="/chips/overview">
+    GPUs, TPUs, custom accelerators, and the silicon arms race powering AI.
   </Card>
-
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
+  <Card title="Energy" icon="bolt-lightning" href="/energy/overview">
+    Data centers, power grids, and the physical infrastructure sustaining AI at scale.
   </Card>
+</CardGroup>
 
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
+---
 
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+<h2 style={{fontSize: "1.875rem", fontWeight: "700", letterSpacing: "-0.02em", marginTop: "0.5rem", marginBottom: "1rem"}}>
+  About Kindling
+</h2>
 
-## Make your content agent ready
+<Info>
+  Kindling is a project by [TumbleweedLabs](https://github.com/tumbleweedlabs) — built to make the AI stack learnable and approachable for everyone, regardless of background. The goal is structured, honest material that respects your intelligence without assuming you already have a PhD.
+</Info>
 
-Make your docs work for humans and AI agents alike.
-
-<Columns cols={2}>
-  <Card title="Prompt component" icon="robot" href="/agent-ready/prompt">
-    Embed shareable AI prompts readers can copy or open in Cursor.
-  </Card>
-
-  <Card title="Visibility" icon="eye" href="/agent-ready/visibility">
-    Show different content to humans and agents reading your docs.
-  </Card>
-
-  <Card title="Contextual menu" icon="bolt" href="/agent-ready/contextual">
-    Give readers one-click access to Claude, ChatGPT, Cursor, and more.
-  </Card>
-
-  <Card title="AI coding tools" icon="wand-magic-sparkles" href="/ai-tools/claude-code">
-    Set up Claude Code, Cursor, or Windsurf with Mintlify's skill.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
+</div>
