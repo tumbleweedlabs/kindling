@@ -1,0 +1,53 @@
+---
+title: "Voicebox"
+description: "Free, local-first AI voice studio — voice cloning, TTS across 23 languages, Whisper dictation, and MCP integration. All on-device, fully private."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Voicebox
+
+**ElevenLabs-quality voice tools, completely on-device — clone voices, generate speech across 23 languages, and dictate with Whisper, all without a subscription.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/jamiepine/voicebox" alt="Voicebox GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">TypeScript</Card>
+  <Card title="Stars" icon="star">24.9k+</Card>
+</CardGroup>
+
+## What it is
+
+Voicebox is a free, open-source, local-first AI voice studio that bundles voice cloning, text-to-speech across 23 languages with seven TTS engine options, and Whisper-powered speech-to-text into a single native desktop app. Built with Tauri rather than Electron, it runs natively on Apple Silicon, NVIDIA CUDA, and AMD ROCm, keeping all audio data on your machine with no cloud dependency. It includes a multi-track story editor for podcast production, post-processing audio effects, and an MCP server for AI agent integration.
+
+The privacy advantage is the headline: everything happens locally. No audio leaves your device, no subscription is required, and no usage limits apply. For developers, the MCP server makes it callable from agent workflows that need voice output without routing through a third-party API.
+
+<Tip>
+  **Use this when** you need ElevenLabs-style voice capabilities but have privacy requirements, cost constraints, or offline needs — or when you want to integrate speech synthesis into an AI agent workflow via MCP without third-party API dependencies.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/jamiepine/voicebox">
+    Source, releases for Mac/Windows/Linux, and MCP documentation.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="ElevenLabs" icon="globe" href="/library/audio-and-speech/elevenlabs">
+    The cloud-based standard — useful comparison point for voice quality.
+  </Card>
+  <Card title="Podcastfy" icon="github" href="/library/audio-and-speech/podcastfy">
+    Programmatic podcast generation — can use Voicebox-compatible TTS engines.
+  </Card>
+</CardGroup>

@@ -1,0 +1,56 @@
+---
+title: "TradingAgents"
+description: "Multi-agent LLM framework that replicates a trading firm — fundamental, sentiment, and technical analyst agents collaborate through structured debate."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# TradingAgents
+
+**A simulated trading firm in code — specialized analyst agents debate investment decisions using real market data, news, and sentiment feeds.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/TauricResearch/TradingAgents" alt="TradingAgents GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (Apache 2.0)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">72k+</Card>
+</CardGroup>
+
+## What it is
+
+TradingAgents is a multi-agent LLM framework that mirrors the structure of a professional trading firm. Specialized agents fill analyst roles — fundamental analysis, sentiment analysis, technical analysis, bull-case research, bear-case research — and a trader agent synthesizes their structured debates into investment decisions, subject to oversight from a risk management team. The system is built on LangGraph and supports multiple LLM backends including OpenAI, Anthropic, and Google.
+
+Data ingestion covers historical price data, financial news, earnings reports, social media sentiment, and insider transaction filings. Compared to simple trading bots, the multi-agent debate structure provides interpretable reasoning: you can trace exactly why the system took a position. The 72k+ stars reflect broad interest from both the AI and quantitative finance communities.
+
+<Tip>
+  **Use this when** you want to prototype multi-agent approaches to financial research, build an explainable AI trading strategy that mirrors professional analyst workflows, or study how LLM agent collaboration performs on financial decision-making tasks.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="tradingagents-ai.github.io ↗" icon="globe" href="https://tradingagents-ai.github.io/">
+    Project site with architecture overview and demo.
+  </Card>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/TauricResearch/TradingAgents">
+    Source code, setup, and documentation.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Dexter" icon="github" href="/library/finance/dexter">
+    Autonomous financial research agent for deep equity analysis.
+  </Card>
+  <Card title="Alpaca" icon="globe" href="/library/finance/alpaca">
+    Commission-free trading API for connecting strategies to live markets.
+  </Card>
+</CardGroup>

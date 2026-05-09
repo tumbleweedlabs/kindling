@@ -1,0 +1,53 @@
+---
+title: "Maigret"
+description: "OSINT tool that searches for accounts linked to a username across 3,000+ websites, building a profile with an interactive relationship graph."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Maigret
+
+**Username-based OSINT across 3,000+ platforms — generates HTML, PDF, or JSON profiles with interactive relationship graphs, no API keys required.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/soxoj/maigret" alt="Maigret GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">26.7k+</Card>
+</CardGroup>
+
+## What it is
+
+Maigret collects a dossier on a person by searching a single username across 3,000+ websites and compiling the findings into structured reports. It scrapes publicly available profile data without requiring API keys and generates output in HTML, PDF, or JSON formats — including an interactive relationship graph that maps discovered accounts and their connections. Named after Georges Simenon's fictional detective, it's one of the most comprehensive open-source OSINT tools available.
+
+Advanced features include recursive username discovery (identifying alternate usernames from found profiles), AI-assisted summary generation, Tor/I2P proxy support for anonymized research, and Cloudflare bypass. It's available as a CLI tool, Python library, Docker container, or web application.
+
+<Tip>
+  **Use this when** you need to map someone's online presence for OSINT research, identity verification, security auditing, or investigating impersonation — without needing accounts or API access on each platform.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/soxoj/maigret">
+    Source, install instructions, and platform database.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Scrapling" icon="github" href="/library/utilities/scrapling">
+    Python scraping framework for extracting data from live web pages at scale.
+  </Card>
+  <Card title="Linkwarden" icon="github" href="/library/utilities/linkwarden">
+    Self-hosted archive for preserving discovered pages against link rot.
+  </Card>
+</CardGroup>

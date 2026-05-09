@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kindling-dev",
+      "runtimeExecutable": "mint",
+      "runtimeArgs": ["dev"],
+      "port": 3000
+    }
+  ]
+}

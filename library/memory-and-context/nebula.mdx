@@ -1,0 +1,53 @@
+---
+title: "Nebula AI"
+description: "Memory and state layer for AI agents — hierarchical vector graph with entity resolution, temporal reasoning, and contradiction detection."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Commercial</Badge>
+  <Badge color="#F97316">Infrastructure Layer</Badge>
+</div>
+
+# Nebula AI
+
+**Production memory for AI agents — not just vector similarity, but a living model of what's true, what's changed, and why.**
+
+<Frame>
+  <img src="https://trynebula.ai/og-image.jpg" alt="Nebula AI" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="building">Commercial</Card>
+  <Card title="Stack Layer" icon="server">Infrastructure</Card>
+  <Card title="Pricing" icon="credit-card">Free tier available</Card>
+  <Card title="Connectors" icon="plug">Slack, Notion, Gmail, MCP</Card>
+</CardGroup>
+
+## What it is
+
+Nebula is a memory and state layer for AI agents that goes beyond naive vector similarity search. It maintains a living model of what is known, what has changed, and why — using a hierarchical vector graph architecture with entity resolution (canonicalizing the same entity referenced different ways), temporal reasoning (understanding when information was true), and contradiction detection (flagging when new information conflicts with existing knowledge).
+
+It supports long-horizon memory across sessions, multimodal inputs (text, images, audio, PDFs), and native connectors for Slack, Notion, Gmail, Claude, and MCP. The infrastructure claim is near-lossless scaling to hundreds of millions of tokens — the kind of memory depth required for agents that operate continuously over weeks or months on real business data.
+
+<Tip>
+  **Use this when** you're building long-running AI agents that need consistent, evolving memory across sessions — especially where the same entity might be referenced many ways, or where outdated information would cause incorrect decisions.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="trynebula.ai ↗" icon="globe" href="https://trynebula.ai/">
+    Product details, free tier, and connector documentation.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Ruflo" icon="github" href="/library/agents/ruflo">
+    Multi-agent orchestration with built-in HNSW vector memory via AgentDB.
+  </Card>
+  <Card title="Paperclip" icon="globe" href="/library/control-surfaces/paperclip">
+    Human control plane for managing persistent AI agent state and governance.
+  </Card>
+</CardGroup>

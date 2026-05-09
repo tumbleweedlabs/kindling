@@ -1,0 +1,53 @@
+---
+title: "ChatGPT Agent"
+description: "OpenAI's built-in agentic capability in ChatGPT — autonomous multi-step tasks including web browsing, code execution, and file management."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Commercial</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# ChatGPT Agent
+
+**OpenAI's agentic mode inside ChatGPT — browses the web, runs code, manages files, and completes long-horizon tasks without manual step-by-step guidance.**
+
+<Frame>
+  <img src="https://cdn.openai.com/API/docs/images/og-image.png" alt="OpenAI ChatGPT Agent" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="building">Commercial</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Pricing" icon="credit-card">Plus / Pro / Team</Card>
+  <Card title="API" icon="plug">Yes (Responses API)</Card>
+</CardGroup>
+
+## What it is
+
+ChatGPT Agent is not a separate product but a mode within ChatGPT that activates when tasks require autonomous, multi-step execution. It can browse the web, write and execute code in a sandbox, manage files across sessions, and call third-party tools through integrations — completing work that would previously require multiple guided back-and-forth turns. The same capabilities are exposed programmatically via the OpenAI Responses API with built-in `web_search` and `code_interpreter` tools.
+
+Available on ChatGPT Plus ($20/month), Pro ($200/month), Team, and Enterprise plans. For developers, the Responses API exposes agent capabilities directly, allowing you to build products on top of the same infrastructure ChatGPT itself uses.
+
+<Tip>
+  **Use this when** you want a no-setup agentic assistant for knowledge work — research, data analysis, document generation — without building your own agent stack or managing tool integrations.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="OpenAI docs ↗" icon="circle-info" href="https://help.openai.com/en/articles/11752874-chatgpt-agent">
+    Official reference for ChatGPT's agentic modes.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Hyperagent" icon="globe" href="/library/agents/hyperagent">
+    Enterprise AI agent platform for organization-wide deployment.
+  </Card>
+  <Card title="Symphony" icon="github" href="/library/agents/symphony">
+    OpenAI's open-source agent orchestration system for development teams.
+  </Card>
+</CardGroup>

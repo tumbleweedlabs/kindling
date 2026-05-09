@@ -1,0 +1,53 @@
+---
+title: "Claude for Financial Services"
+description: "Anthropic's official reference repo — pre-built agents, skills, and MCP connectors for investment banking, equity research, wealth management, and more."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Claude for Financial Services
+
+**Anthropic's official FSI reference implementation — production-ready agents, vertical skill plugins, and 11 data provider connectors for financial services workflows.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/anthropics/financial-services" alt="Claude for Financial Services GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (Apache 2.0)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">16.2k+</Card>
+</CardGroup>
+
+## What it is
+
+This is Anthropic's official reference repository for deploying Claude in financial services. It contains 11 named workflow agents covering common FSI tasks — Pitch Agent, Market Researcher, GL Reconciler, KYC Screener, and others — alongside vertical skill bundles for investment banking, equity research, private equity, wealth management, and fund administration. Data connectivity is provided through 11 MCP servers for external providers including Morningstar, S&P Global, FactSet, PitchBook, Daloopa, and LSEG.
+
+Everything is file-based markdown and YAML with no build step, making it easy for financial firms to customize by swapping data connectors, adding firm-specific context, and tuning prompts for their workflows. Deployment options include Claude Cowork plugins and the Claude Managed Agents API for headless orchestration.
+
+<Tip>
+  **Use this when** you're deploying Claude at a financial services firm and want a tested, production-ready starting point rather than building agent templates from scratch — the pre-built data connectors alone save significant integration work.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/anthropics/financial-services">
+    Agent templates, skill bundles, and MCP connector setup.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Dexter" icon="github" href="/library/finance/dexter">
+    Open-source autonomous financial research agent.
+  </Card>
+  <Card title="TradingAgents" icon="globe" href="/library/finance/trading-agents">
+    Multi-agent trading framework for research and strategy development.
+  </Card>
+</CardGroup>
