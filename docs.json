@@ -124,7 +124,8 @@
         "pages": [
           "library/browse",
           "library/agents",
-          "library/coding-agents-and-skills",
+          "library/coding",
+          "library/skills",
           "library/audio-and-speech",
           "library/image-and-video",
           "library/models",
@@ -138,6 +139,12 @@
       }
     ]
   },
+  "redirects": [
+    {
+      "source": "/library/coding-agents-and-skills",
+      "destination": "/library/skills"
+    }
+  ],
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
