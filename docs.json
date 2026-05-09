@@ -11,12 +11,37 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "BEGIN HERE",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "tab": "APPLICATIONS",
+        "icon": "browsers"
+      },
+      {
+        "tab": "MODELS",
+        "icon": "brain-circuit"
+      },
+      {
+        "tab": "INFRASTRUCTURE",
+        "icon": "server"
+      },
+      {
+        "tab": "CHIPS",
+        "icon": "microchip-ai"
+      },
+      {
+        "tab": "ENERGY",
+        "icon": "bolt-lightning"
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
               "quickstart",
               "development"
             ]
@@ -50,49 +75,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "BEGIN HERE"
-      },
-      {
-        "tab": "APPLICATIONS",
-        "icon": "browsers"
-      },
-      {
-        "tab": "MODELS",
-        "icon": "brain-circuit"
-      },
-      {
-        "tab": "INFRASTRUCTURE",
-        "icon": "server"
-      },
-      {
-        "tab": "CHIPS",
-        "icon": "microchip-ai"
-      },
-      {
-        "tab": "ENERGY",
-        "icon": "bolt-lightning"
       },
       {
         "tab": "Guides",
