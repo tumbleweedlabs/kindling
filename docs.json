@@ -93,6 +93,64 @@
       {
         "tab": "ENERGY",
         "icon": "bolt-lightning"
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/components",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Agent ready",
+            "pages": [
+              "agent-ready/prompt",
+              "agent-ready/visibility",
+              "agent-ready/contextual",
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "LIBRARY",
+        "icon": "books",
+        "pages": [
+          "library/browse",
+          "library/agents",
+          "library/coding-agents-and-skills",
+          "library/audio-and-speech",
+          "library/image-and-video",
+          "library/models",
+          "library/memory-and-context",
+          "library/control-surfaces",
+          "library/hardware-design",
+          "library/productivity-utilities",
+          "library/finance",
+          "library/articles-and-threads"
+        ]
       }
     ]
   },
