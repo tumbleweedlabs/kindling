@@ -1,0 +1,56 @@
+---
+title: "Agent Zero"
+description: "Self-hosted autonomous agent framework with full shell access, persistent memory, and self-modifying Docker environment."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Agent Zero
+
+**A fully self-hosted agent framework that runs in Docker, modifies its own tools, and learns from experience through persistent vector memory.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/agent0ai/agent-zero" alt="Agent Zero GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">17.6k+</Card>
+</CardGroup>
+
+## What it is
+
+Agent Zero is an open-source autonomous agent framework built around a persistent, self-modifying Docker environment. It runs in a Linux container and gives agents full shell access, file editing capabilities, and long-term memory via FAISS vector search. Agents can spawn sub-agents in hierarchies, learn from completed tasks, and dynamically create or modify tools — including their own codebase. Speech interaction (TTS/STT) is built in, and it supports multiple LLM backends including OpenAI, Anthropic, and others.
+
+The project's philosophy is radical transparency: the entire system is inspectable and community-owned, with no hidden cloud infrastructure or vendor lock-in. This makes it a popular starting point for researchers and developers who want to understand agent internals or build custom frameworks on top of a known baseline.
+
+<Tip>
+  **Use this when** you want a fully self-hosted agent with no cloud dependency — especially for tasks requiring shell access, file manipulation, and memory that persists between sessions.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="agent-zero.ai ↗" icon="globe" href="https://www.agent-zero.ai/p/architecture/">
+    Architecture overview and documentation.
+  </Card>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/agent0ai/agent-zero">
+    Source code, Docker setup, and community.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Ruflo" icon="github" href="/library/agents/ruflo">
+    Multi-agent orchestration platform with 100+ specialized agents.
+  </Card>
+  <Card title="Symphony" icon="github" href="/library/agents/symphony">
+    OpenAI's agent orchestration system for autonomous project work.
+  </Card>
+</CardGroup>

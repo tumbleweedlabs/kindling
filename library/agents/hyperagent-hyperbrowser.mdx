@@ -1,0 +1,60 @@
+---
+title: "HyperAgent on Hyperbrowser"
+description: "Open-source Playwright framework that executes multi-step browser automation tasks from natural language instructions."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Infrastructure Layer</Badge>
+</div>
+
+# HyperAgent on Hyperbrowser
+
+**Natural language browser automation built on Playwright — describe the task, HyperAgent handles the selectors, clicks, and multi-step execution.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/hyperbrowserai/HyperAgent" alt="HyperAgent GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source</Card>
+  <Card title="Stack Layer" icon="server">Infrastructure</Card>
+  <Card title="Language" icon="code">TypeScript</Card>
+  <Card title="Stars" icon="star">1.3k+</Card>
+</CardGroup>
+
+## What it is
+
+HyperAgent is an open-source, AI-powered Playwright framework from Hyperbrowser that lets developers automate browser tasks using natural language. Rather than writing explicit selectors and action sequences, you describe what you want done and HyperAgent generates and executes the Playwright code. It runs on top of Hyperbrowser Cloud (which provides the actual browser sessions, billed by usage) but supports your own LLM API keys to avoid consuming Hyperbrowser inference credits.
+
+This sits in the Infrastructure layer because it's a building block for AI agents rather than an end-user product — you embed it in your own application or agent stack to give them browser access without managing browser infrastructure.
+
+<Note>
+  **Note on naming:** This is a different product from the enterprise Airtable agent platform also called "Hyperagent" at hyperagent.com. This is Hyperbrowser's open-source Playwright framework.
+</Note>
+
+<Tip>
+  **Use this when** you're building an AI agent that needs to interact with websites — scraping, form filling, web research, UI testing — and you want natural language task specifications instead of hand-coded Playwright scripts.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="Hyperbrowser docs ↗" icon="book" href="https://www.hyperbrowser.ai/docs/agents/hyperagent">
+    Full documentation and API reference.
+  </Card>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/hyperbrowserai/HyperAgent">
+    Source code and examples.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Scrapling" icon="github" href="/library/utilities/scrapling">
+    Python scraping framework with adaptive element tracking and anti-bot bypass.
+  </Card>
+  <Card title="Ruflo" icon="github" href="/library/agents/ruflo">
+    Multi-agent orchestration platform with DevOps and testing agent specialists.
+  </Card>
+</CardGroup>

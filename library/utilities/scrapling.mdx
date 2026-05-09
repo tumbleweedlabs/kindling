@@ -1,0 +1,53 @@
+---
+title: "Scrapling"
+description: "Python web scraping framework with adaptive element tracking, anti-bot bypass, concurrent crawling, and MCP server for AI agent integration."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Scrapling
+
+**Adaptive Python scraping that survives website redesigns — selectors relocate themselves after layout changes, with stealth mode for anti-bot resistance.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/D4Vinci/Scrapling" alt="Scrapling GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (BSD-3)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">48k+</Card>
+</CardGroup>
+
+## What it is
+
+Scrapling is a Python web scraping framework that handles the full spectrum from simple HTTP requests to anti-bot-resistant browser automation. Its headline feature is adaptive element tracking: scraped selectors automatically relocate themselves when a website redesigns, dramatically reducing maintenance overhead for long-running scraping projects. It matches Parsel and Scrapy for performance on text extraction while adding stealth browsing modes and Cloudflare bypass for modern dynamic sites.
+
+Concurrent crawling with pause/resume is built in, and Scrapling ships an MCP server that lets AI agents call it directly as a tool — making it a natural fit for autonomous research agents that need structured web data. Benchmarks show strong performance relative to Selenium and Playwright alternatives for data-extraction tasks.
+
+<Tip>
+  **Use this when** you're building scrapers that need to outlive website changes, or when you need anti-bot-resistant data extraction for AI pipelines — the MCP integration makes it directly usable inside agent workflows.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/D4Vinci/Scrapling">
+    Source, benchmarks, and MCP server documentation.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="HyperAgent" icon="github" href="/library/agents/hyperagent-hyperbrowser">
+    Natural language browser automation built on Playwright.
+  </Card>
+  <Card title="Maigret" icon="github" href="/library/utilities/maigret">
+    OSINT username lookup across 3,000+ platforms.
+  </Card>
+</CardGroup>

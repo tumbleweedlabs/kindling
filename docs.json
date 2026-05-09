@@ -25,19 +25,124 @@
             "group": "Library",
             "root": "library/browse",
             "pages": [
-              "library/agents",
-              "library/articles-and-threads",
-              "library/audio-and-speech",
-              "library/coding",
-              "library/control-surfaces",
-              "library/design",
-              "library/finance",
-              "library/hardware-design",
-              "library/image-and-video",
-              "library/memory-and-context",
+              {
+                "group": "Agents",
+                "root": "library/agents",
+                "pages": [
+                  "library/agents/agent-zero",
+                  "library/agents/space-agent",
+                  "library/agents/hyperagent",
+                  "library/agents/hyperagent-hyperbrowser",
+                  "library/agents/chatgpt-agent",
+                  "library/agents/ruflo",
+                  "library/agents/symphony"
+                ]
+              },
+              {
+                "group": "Articles & threads",
+                "root": "library/articles-and-threads",
+                "pages": [
+                  "library/articles-and-threads/claude-agreeing",
+                  "library/articles-and-threads/claudeai-custom-prompts"
+                ]
+              },
+              {
+                "group": "Audio & speech",
+                "root": "library/audio-and-speech",
+                "pages": [
+                  "library/audio-and-speech/elevenlabs",
+                  "library/audio-and-speech/podlm",
+                  "library/audio-and-speech/sparkpod",
+                  "library/audio-and-speech/wondercraft",
+                  "library/audio-and-speech/voicebox",
+                  "library/audio-and-speech/podcastfy"
+                ]
+              },
+              {
+                "group": "Coding",
+                "root": "library/coding",
+                "pages": [
+                  "library/coding/opencode",
+                  "library/coding/warp",
+                  "library/coding/jcode"
+                ]
+              },
+              {
+                "group": "Control surfaces",
+                "root": "library/control-surfaces",
+                "pages": [
+                  "library/control-surfaces/humanlayer",
+                  "library/control-surfaces/paperclip"
+                ]
+              },
+              {
+                "group": "Design",
+                "root": "library/design",
+                "pages": [
+                  "library/design/tweakcn",
+                  "library/design/impeccable"
+                ]
+              },
+              {
+                "group": "Finance",
+                "root": "library/finance",
+                "pages": [
+                  "library/finance/alpaca",
+                  "library/finance/trading-agents",
+                  "library/finance/kronos",
+                  "library/finance/dexter",
+                  "library/finance/claude-financial-services",
+                  "library/finance/ai-crypto-trade-article",
+                  "library/finance/how-to-trade-with-ai"
+                ]
+              },
+              {
+                "group": "Hardware design",
+                "root": "library/hardware-design",
+                "pages": [
+                  "library/hardware-design/schematik"
+                ]
+              },
+              {
+                "group": "Image & video",
+                "root": "library/image-and-video",
+                "pages": [
+                  "library/image-and-video/higgsfield",
+                  "library/image-and-video/seedance"
+                ]
+              },
+              {
+                "group": "Memory & context",
+                "root": "library/memory-and-context",
+                "pages": [
+                  "library/memory-and-context/nebula"
+                ]
+              },
               "library/models",
-              "library/utilities",
-              "library/skills"
+              {
+                "group": "Skills",
+                "root": "library/skills",
+                "pages": [
+                  "library/skills/frontend-slides",
+                  "library/skills/karpathy-skills",
+                  "library/skills/huashu-design",
+                  "library/skills/logo-generator-skill",
+                  "library/skills/logo-creator",
+                  "library/skills/gstack",
+                  "library/skills/matt-pocock-skills"
+                ]
+              },
+              {
+                "group": "Utilities",
+                "root": "library/utilities",
+                "pages": [
+                  "library/utilities/markitdown",
+                  "library/utilities/postiz",
+                  "library/utilities/linkwarden",
+                  "library/utilities/maigret",
+                  "library/utilities/scrapling"
+                ]
+              }
             ]
           }
         ]

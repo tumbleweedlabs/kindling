@@ -1,0 +1,53 @@
+---
+title: "Dexter"
+description: "Autonomous financial research agent that decomposes investment questions, pulls real market data, self-validates, and returns analyst-grade answers."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Dexter
+
+**"Claude Code, but for financial research" — an autonomous agent that breaks down complex investment questions, gathers real data, and validates its own work.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/virattt/dexter" alt="Dexter GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">TypeScript</Card>
+  <Card title="Stars" icon="star">24.9k+</Card>
+</CardGroup>
+
+## What it is
+
+Dexter is an autonomous financial research agent built in TypeScript. Given a complex financial question — "What are the key risks in Nvidia's current valuation?" — it decomposes the inquiry into a structured research plan, selects and calls appropriate financial data tools (income statements, balance sheets, cash flow data, real-time price feeds), iteratively executes the research, self-validates via reflection loops, and returns comprehensive findings. Safety guardrails including loop detection and execution limits prevent runaway behavior.
+
+The project is described as "Claude Code, but built specifically for financial research" by its author virattt, a prominent AI × finance developer and content creator. Unlike generic research agents, Dexter is purpose-built for financial domains with relevant data tools and domain-specific validation patterns.
+
+<Tip>
+  **Use this when** you need to automate deep equity or financial research — multi-source analysis that synthesizes fundamental data, market context, and financial statements into a coherent answer — without manually orchestrating each data-gathering step.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/virattt/dexter">
+    Source, API setup, and usage examples.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="TradingAgents" icon="globe" href="/library/finance/trading-agents">
+    Multi-agent framework that mirrors a trading firm's analyst structure.
+  </Card>
+  <Card title="Alpaca" icon="globe" href="/library/finance/alpaca">
+    Trading API for connecting research conclusions to live market execution.
+  </Card>
+</CardGroup>

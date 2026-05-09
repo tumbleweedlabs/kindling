@@ -1,0 +1,53 @@
+---
+title: "MarkItDown"
+description: "Microsoft's Python utility for converting PDFs, Word docs, PowerPoint, Excel, images, and audio into clean Markdown for LLM pipelines."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# MarkItDown
+
+**Convert virtually any file format into clean, LLM-ready Markdown — PDFs, Office documents, images, audio, and more.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/microsoft/markitdown" alt="MarkItDown GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">122k+</Card>
+</CardGroup>
+
+## What it is
+
+MarkItDown is a lightweight Python utility from Microsoft that converts almost any document format — PDFs, Word, PowerPoint, Excel, images, HTML, audio — into clean Markdown output. It preserves structural information (headings, lists, tables, links) while discarding visual formatting, producing output that modern LLMs understand natively. With 122k+ GitHub stars, it has become a standard pre-processing step in AI document pipelines.
+
+The project exists because Markdown sits at the sweet spot between plain text and rich markup that LLMs handle well. It's intentionally a pre-processing utility, not a standalone document converter — the output is optimized for feeding into an LLM context or RAG pipeline rather than for human reading.
+
+<Tip>
+  **Use this when** you need to feed arbitrary documents into an LLM pipeline without losing structural context — turn a 50-page PDF into a form Claude or GPT can actually reason over.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/microsoft/markitdown">
+    Source, pip install, and format support matrix.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Linkwarden" icon="github" href="/library/utilities/linkwarden">
+    Self-hosted bookmark manager that preserves full page content against link rot.
+  </Card>
+  <Card title="Scrapling" icon="github" href="/library/utilities/scrapling">
+    Python web scraping framework for extracting content from live pages.
+  </Card>
+</CardGroup>

@@ -1,0 +1,53 @@
+---
+title: "Symphony"
+description: "OpenAI's open-source agent orchestration system — monitors project backlogs, assigns tasks to agents, and verifies completion via CI."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# Symphony
+
+**Autonomous project execution: Symphony watches your backlog, assigns tasks to coding agents, and verifies their work — you manage the work, not the agents.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/openai/symphony" alt="Symphony GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (Apache 2.0)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Elixir</Card>
+  <Card title="Stars" icon="star">22.8k+</Card>
+</CardGroup>
+
+## What it is
+
+Symphony is OpenAI's reference implementation of an agent orchestration system for software development. It shifts the developer's role from supervising individual agents to managing work queues: Symphony monitors a project backlog (e.g., a Linear board), autonomously assigns tasks to coding agents, and verifies completion through CI status and code review. The model is "isolated, autonomous implementation runs" — each task is a self-contained agent session, reducing the interference and state accumulation that plagues long-running agents.
+
+The repo includes both a detailed specification document and an experimental Elixir implementation. It's positioned for engineering teams that have already adopted harness engineering practices and want to scale agent usage across a full development backlog without individual supervision.
+
+<Tip>
+  **Use this when** your team has moved beyond one-off AI coding sessions and wants autonomous agents working through a project backlog continuously, verified by your existing CI pipeline.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/openai/symphony">
+    Spec document, Elixir reference implementation, and architecture notes.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Ruflo" icon="github" href="/library/agents/ruflo">
+    Multi-agent orchestration platform with pre-built specialist agents.
+  </Card>
+  <Card title="HumanLayer" icon="github" href="/library/control-surfaces/humanlayer">
+    Claude Code IDE for scaling AI-assisted development organization-wide.
+  </Card>
+</CardGroup>

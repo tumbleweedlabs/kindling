@@ -1,0 +1,53 @@
+---
+title: "Kronos"
+description: "First open-source foundation model pretrained on financial candlestick data from 45+ global exchanges — price forecasting and market pattern recognition."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Models Layer</Badge>
+</div>
+
+# Kronos
+
+**The first open-source foundation model for financial time-series — pretrained on OHLCV data from 45+ exchanges for price forecasting and market analysis.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/shiyu-coder/Kronos" alt="Kronos GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="brain-circuit">Models</Card>
+  <Card title="Language" icon="code">Python</Card>
+  <Card title="Stars" icon="star">23.7k+</Card>
+</CardGroup>
+
+## What it is
+
+Kronos is the first open-source foundation model purpose-built for financial candlestick (K-line) data. It uses a two-stage architecture: a specialized tokenizer converts OHLCV (open/high/low/close/volume) data from 45+ global exchanges into discrete hierarchical tokens, which a large decoder-only transformer models autoregressively. Multiple model sizes (mini, small, base) are available on Hugging Face, enabling price forecasting, market pattern recognition, and fine-tuning on custom financial datasets.
+
+The Models layer designation reflects what Kronos is: a foundation model, not an application. It's the learned representation of financial market behavior that downstream trading applications can build on, in the same way that LLMs are used as a base for natural language applications.
+
+<Tip>
+  **Use this when** you're building a quantitative trading system and want to leverage a pretrained financial foundation model rather than training a time-series model from scratch — particularly if you need cross-exchange generalization or want to fine-tune on a specific market's patterns.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/shiyu-coder/Kronos">
+    Model weights, training code, and Hugging Face links.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="TradingAgents" icon="globe" href="/library/finance/trading-agents">
+    Multi-agent framework that could use Kronos-derived signals as one analyst input.
+  </Card>
+  <Card title="Dexter" icon="github" href="/library/finance/dexter">
+    Autonomous financial research agent with real-time market data tools.
+  </Card>
+</CardGroup>

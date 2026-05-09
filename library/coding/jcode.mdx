@@ -1,0 +1,53 @@
+---
+title: "jcode"
+description: "High-performance AI coding agent harness in Rust with multi-agent coordination, semantic memory, and millisecond startup."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Applications Layer</Badge>
+</div>
+
+# jcode
+
+**A next-generation coding agent harness in Rust — built for multi-session workflows, swarm coordination, and raw performance.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/1jehuang/jcode" alt="jcode GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="browsers">Applications</Card>
+  <Card title="Language" icon="code">Rust</Card>
+  <Card title="Stars" icon="star">5.2k+</Card>
+</CardGroup>
+
+## What it is
+
+jcode is a coding agent harness written in Rust that prioritizes performance and customizability where most agent frameworks sacrifice one for the other. It achieves millisecond startup times and a minimal RAM footprint while supporting semantic memory, multi-agent "swarm" coordination, and browser automation — capabilities that typically require heavyweight Python runtimes. Its most unusual feature is self-modification: agents can edit and rebuild their own source code, enabling recursive improvement loops.
+
+The framework is designed for developers who have hit the ceiling of existing agent tools and want direct control over session management, memory architecture, and agent topology. It supports multiple LLM backends and coordinates agents at the harness level rather than relying on model-side tool calls.
+
+<Tip>
+  **Use this when** you're running long agentic workflows where startup overhead and memory usage matter, or when you need swarm coordination across multiple concurrent agents.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/1jehuang/jcode">
+    Source, docs, and setup instructions.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="OpenCode" icon="globe" href="/library/coding/opencode">
+    Open-source AI coding agent with 150k+ stars and multi-provider support.
+  </Card>
+  <Card title="Ruflo" icon="github" href="/library/agents/ruflo">
+    Multi-agent orchestration platform for Claude with 100+ specialized agents.
+  </Card>
+</CardGroup>

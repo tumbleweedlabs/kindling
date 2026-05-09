@@ -1,0 +1,53 @@
+---
+title: "Ruflo"
+description: "Multi-agent orchestration platform for Claude with 100+ specialized agents, HNSW vector memory, and zero-trust federation across machines."
+---
+
+<div style={{display: "flex", gap: "8px", marginBottom: "1.5rem", flexWrap: "wrap"}}>
+  <Badge>Open Source</Badge>
+  <Badge color="#F97316">Infrastructure Layer</Badge>
+</div>
+
+# Ruflo
+
+**Orchestrate swarms of 100+ specialized AI agents across machines — with vector memory, self-learning, and federated collaboration built in.**
+
+<Frame>
+  <img src="https://opengraph.githubassets.com/1/ruvnet/ruflo" alt="Ruflo GitHub" />
+</Frame>
+
+<CardGroup cols={4}>
+  <Card title="Type" icon="code-branch">Open Source (MIT)</Card>
+  <Card title="Stack Layer" icon="server">Infrastructure</Card>
+  <Card title="Language" icon="code">TypeScript</Card>
+  <Card title="Stars" icon="star">47.2k+</Card>
+</CardGroup>
+
+## What it is
+
+Ruflo is a multi-agent orchestration platform built primarily for Claude, with support for GPT, Gemini, and Ollama. It coordinates swarms of 100+ pre-built specialist agents — covering coding, testing, security auditing, documentation, and DevOps — using configurable hierarchical or mesh topologies. Its vector memory layer (HNSW-indexed AgentDB) enables fast semantic retrieval across agent sessions, and a self-learning mechanism via SONA neural patterns allows the platform to improve agent behaviors over time.
+
+The infrastructure angle is Ruflo's zero-trust federation system, which enables agents to collaborate securely across machine boundaries without shared credentials. It exposes a CLI, an MCP server for Claude Code integration, and a web UI at flo.ruv.io. Enterprise support and hosted deployment are available through ruv.io.
+
+<Tip>
+  **Use this when** you need to run a coordinated team of specialist AI agents across a full software development pipeline — coding, testing, security, docs — potentially distributed across multiple machines.
+</Tip>
+
+## Get started
+
+<CardGroup cols={2}>
+  <Card title="GitHub ↗" icon="github" href="https://github.com/ruvnet/ruflo">
+    Source, agent library, and MCP server setup.
+  </Card>
+</CardGroup>
+
+## Related tools
+
+<CardGroup cols={2}>
+  <Card title="Symphony" icon="github" href="/library/agents/symphony">
+    OpenAI's agent orchestration system for autonomous project work.
+  </Card>
+  <Card title="Agent Zero" icon="github" href="/library/agents/agent-zero">
+    Self-hosted Docker-based agent framework with persistent memory.
+  </Card>
+</CardGroup>
