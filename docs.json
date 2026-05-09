@@ -114,7 +114,8 @@
               "ai-tools/windsurf"
             ]
           }
-        ]
+        ],
+        "hidden": true
       },
       {
         "tab": "LIBRARY",
