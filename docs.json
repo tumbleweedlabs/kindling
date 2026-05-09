@@ -15,7 +15,7 @@
         "pages": [
           "index"
         ],
-        "icon": "house"
+        "hidden": true
       },
       {
         "tab": "LIBRARY",
@@ -39,23 +39,28 @@
       },
       {
         "tab": "APPLICATIONS",
-        "icon": "browsers"
+        "icon": "browsers",
+        "pages": ["applications/overview"]
       },
       {
         "tab": "MODELS",
-        "icon": "brain-circuit"
+        "icon": "brain-circuit",
+        "pages": ["models/overview"]
       },
       {
         "tab": "INFRASTRUCTURE",
-        "icon": "server"
+        "icon": "server",
+        "pages": ["infrastructure/overview"]
       },
       {
         "tab": "CHIPS",
-        "icon": "microchip-ai"
+        "icon": "microchip-ai",
+        "pages": ["chips/overview"]
       },
       {
         "tab": "ENERGY",
-        "icon": "bolt-lightning"
+        "icon": "bolt-lightning",
+        "pages": ["energy/overview"]
       },
       {
         "tab": "Guides",
@@ -153,7 +158,8 @@
   ],
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "/"
   },
   "navbar": {
     "links": [
