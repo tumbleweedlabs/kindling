@@ -33,7 +33,7 @@
           "library/image-and-video",
           "library/memory-and-context",
           "library/models",
-          "library/productivity-utilities",
+          "library/utilities",
           "library/skills"
         ]
       },
@@ -145,6 +145,10 @@
     {
       "source": "/library/coding-agents-and-skills",
       "destination": "/library/skills"
+    },
+    {
+      "source": "/library/productivity-utilities",
+      "destination": "/library/utilities"
     }
   ],
   "logo": {
